@@ -1,0 +1,328 @@
+body{
+	background-color: #070707;
+    background-attachment: fixed;
+    background-image: url(images/matrice-binaire.jpg);
+	/*background-repeat: repeat-x;*/
+    display: inline-block;
+}
+
+*{
+    border-radius: 15px ;
+    padding: 2px;
+    margin: 0;
+    border-width:10px;
+    border-color: red;
+}
+section,footer,#section{
+    flex-basis: 30em;
+    flex-grow: 2;
+}
+.vershaut{
+    position: absolute;
+	right:1%;
+    opacity: 10;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+
+}
+
+.cache
+{
+     display: none;  
+}
+
+.restgrand{
+    
+    width: 60em;
+}
+
+/* HEADER */
+
+header{
+	position: relative;
+	color: aliceblue;
+	width:100%;
+    height:100%;
+    border-top-left-radius:20px;
+    border-bottom-right-radius:20px;
+    margin: 0;
+    background-color: #0f1e3e;
+	
+}
+
+
+
+header img, h1 {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+}
+
+
+.logo {
+    width:200px;
+    height: 200px;
+}
+
+header div{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+/* NAVIGUATION */
+
+.ici{
+        background-color: azure;
+       
+    }
+
+nav {
+    background-color:aliceblue;  
+    text-align: center;
+	border: solid black 5px;
+}
+
+nav li {
+    background-color:#132751;
+    display:inline-flex;
+	text-align: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    width:13em;
+}
+
+
+/* MAIN */
+
+
+
+/*pour la page d'acceuill*/
+#section{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    width: 70em;
+    position: relative;
+    left: 12em;
+    padding: 0.5em;
+    margin: 0;
+}
+/* les autre page*/
+.horiz,section{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    flex-basis: 30em;
+    flex-grow: 1;
+    position: relative;
+    left: 12em;
+    padding: 0.5em;
+    margin: 0;
+}
+
+.paragraphe{
+    background-color: aliceblue;
+    padding: 0.5em;
+    margin: 0;
+}
+
+img:hover{
+     opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.image{
+   display: block;
+   background-color:#132751;
+   border-radius: 15px ;
+   margin: 0 0  0 5px;
+      
+}
+
+.image2{
+   display: none;
+    background-color:aliceblue;
+    border-radius: 15px ;
+    margin: 0 0  0 5px;
+}
+
+.image3{
+	display: none;
+	background-color: #132751;
+	 border-radius: 15px ;
+    margin: 0 0  0 5px;
+}
+
+#panel1,#panel2,#panel3, #flip1,#flip2,#flip3 {
+    padding: 5px;
+    text-align: center;
+    background-color: #132751;
+    border: solid 1px #c3c3c3;
+}
+
+#panel1,#panel2,#panel3 {
+    padding: 25px;
+    display: none;
+}
+
+ul{
+    text-align: left;
+    
+}
+
+li {
+    list-style-type: none;
+	background-color: aliceblue;
+   
+
+}
+
+#flip1, #flip2, #flip3{
+	padding: 10px;
+	
+}
+
+h3{
+	background-color: aliceblue;
+}
+
+#presentation{
+	display: flex;
+	flex-direction: row;
+	background-color: aliceblue;
+	border: solid 10px #132751;
+    border-radius: 15px ;
+    margin: 0 0  20px 5px;
+}
+
+#presentation article{
+	background-color: aliceblue;
+	border: solid black 10px;
+	margin: 50px;
+	padding: 0.5em;
+	border-radius: 15px;
+}
+ #quisommesnous{
+     position: relative;
+     left: 12em;
+	background-color: aliceblue;
+	border: solid black 10px;
+	margin: 10px;
+	padding: 0.2em;
+	border-radius: 15px;
+}
+#section p{
+    padding: 0.5em;
+}
+#imagesnous{
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	background-color: aliceblue;
+	border: solid black 10px;
+	margin: 50px;
+	padding: 0.5em;
+	border-radius: 15px;
+}
+
+#pourquoi{
+	display: flex;
+	flex-direction: row-reverse;
+	background-color: aliceblue;
+	border: solid 10px #132751;
+    border-radius: 15px ;
+    margin: 20px 0 0 5px;
+}
+
+#pourquoi article {
+	background-color: aliceblue;
+	border: solid black 10px;
+	border-radius: 15px;
+	margin: 50px;
+	padding: 0.5em;
+}
+
+
+video
+{
+    border-radius: 50em;
+    margin: 0em;
+}
+
+/* FOOTER */
+
+
+
+address{
+    margin: 0.5em;
+    text-decoration-line:none;
+}
+
+footer img{
+   
+    opacity: 0.42;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    height: 10em;
+    width: 53em;
+
+}
+footer{
+		position: relative;
+	color: aliceblue;
+    display:inline-flex;
+    margin: 0;
+    background-color: #0f1e3e;
+	left: 13em;
+}
+
+
+
+#footer img{
+   
+    opacity: 0.42;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    height: 10em;
+    width: 47em;
+
+}
+
+/* LIEN */
+
+a
+{
+    text-decoration: none;
+	color: #3a5fad;
+}
+
+
+a:hover
+{
+    background-color: azure;
+    color: black;
+}
+
+
+/* MODE NUIT */
+
+.nuit{
+    background-color: aliceblue;
+    position: fixed;
+    left: 1px;
+    top:50%;
+    padding: 0.5em;
+}
+.modenuit1{
+    
+               background-color: black;
+               color:white;
+               border-color: white;
+               background-image:url();//pour supprimer l'image de fond
+             
+               
+        }     
+.modeJ{
+    display: none;
+}
